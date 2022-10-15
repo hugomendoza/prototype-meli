@@ -1,0 +1,22 @@
+.breadcrumb {
+  align-items: center;
+  padding-inline-start: 0;
+  margin: 0.75rem 0;
+  padding: 0.5rem;
+
+  &__item {
+    align-items: center;
+    color: $darkGray;
+    font-size: 0.9rem;
+
+    svg {
+      margin: 0 0.5rem;
+    }
+
+    &:last-child {
+      svg {
+        display: none;
+      }
+    }
+  }
+}

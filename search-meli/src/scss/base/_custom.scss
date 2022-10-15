@@ -1,0 +1,47 @@
+//Colors
+
+$primary: #ffe500; //Amarillo
+$secondary: #3482ff; //Azul
+$gray: #eeeeee; // Gris claro
+$darkGray: #646464; //Gris oscuro
+$green: #20ba64; //Verde
+$lightRed: #ff6b6b; //Rojo
+
+//Fonts
+
+$primaryFont: "Montserrat", Arial, Helvetica, sans-serif;
+
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+
+  @media screen and (max-width: 1400px) {
+    font-size: calc(14px + (16 - 14) * ((100vw - 576px) / (1400 - 576)));
+  }
+  
+  @media screen and (max-width: 576px) {
+    font-size: 14px;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $gray;
+  font-family: $primaryFont;
+  padding-bottom: 4rem;
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}

@@ -1,0 +1,9 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: min(1280px, 100%);
+  margin: auto;
+}

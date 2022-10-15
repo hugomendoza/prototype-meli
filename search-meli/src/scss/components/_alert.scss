@@ -1,0 +1,19 @@
+.alert {
+  display: flex;
+  align-items: center;
+  width: min(400px, 90%);
+  margin: 1rem auto 0;
+  background-color: $lightRed;
+  justify-content: center;
+  border-radius: 0.25rem;
+  
+  svg,
+  p {
+    color: white
+  }
+
+  p {
+    line-height: 1;
+    margin-left: 1rem;
+  }
+}
